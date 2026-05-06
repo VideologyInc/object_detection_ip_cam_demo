@@ -1,7 +1,7 @@
 # Object Detection IP Camera Demo
 
 ## Setup
-- Git clone the repository on your SCAiLX
+- Extract the zip file and copy the files inside the SCAiLX.
 
 ## How to run the demo
 - Identify your video input stream link e.g rtsp://admin:admin1234@10.105.1.41:554/rtsp_stream_02
