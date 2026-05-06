@@ -1,0 +1,19 @@
+# Object Detection IP Camera Demo
+
+## Setup
+- Git clone the repository on your SCAiLX
+
+## How to run the demo
+- Identify your video input stream link e.g rtsp://admin:admin1234@10.105.1.41:554/rtsp_stream_02
+- RTSP URL: rtsp://USERNAME:PASSWORD@IP:PORT/stream
+- Notes: Suggest to use low resolution video at width 640 and height 640 , the framerate can be 30 FPS.
+
+# Usage: 
+    bash object_detection_demo.sh <rtsp_url> [width] [height]
+
+# Example: 
+    bash object_detection_demo.sh rtsp://admin:admin1234@10.105.1.41:554/rtsp_stream_02
+    bash object_detection_demo.sh rtsp://... 640 480
+
+# Result
+- Open the browser http://scailx-ai.local:8091 or http://IPSCAILX:8091 to see the result.
