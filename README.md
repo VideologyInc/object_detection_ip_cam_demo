@@ -9,16 +9,16 @@
     bash demo.sh
     ```
 
-## Run the IP Demo
+## Run the IP Camera Demo
 - Identify your video input stream link e.g **rtsp://admin:admin1234@10.105.1.41:554/rtsp_stream_02** 
-- Notes: Suggest to use low resolution video at width 640 and height 640 , the framerate can be 30 FPS.
+- Set the resolution video at width 1280 and height 720 , the requires framerate should be at 30 FPS.
 - Run the demo with the video input stream link:
     ```
-    bash object_detection_demo.sh rtsp://USERNAME:PASSWORD@IP:PORT/stream
+    bash ip_demo.sh rtsp://USERNAME:PASSWORD@IP:PORT/stream
     ```
 - Run the demo with video input stream link, width and height:
     ```
-    bash object_detection_demo.sh rtsp://USERNAME:PASSWORD@IP:PORT/stream 640 480
+    bash ip_demo.sh rtsp://USERNAME:PASSWORD@IP:PORT/stream 1280 720
     ```
 
 ## Result
